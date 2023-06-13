@@ -1,9 +1,9 @@
 import "./style.css";
 import ReactDOM from "react-dom/client";
 import { Canvas } from "@react-three/fiber";
-import Experience from "./Experience.jsx";
+import Experience from "./components/Experience.jsx";
 import * as THREE from "three";
-import Crosshair from "./Crosshair.jsx";
+import Crosshair from "./components/Crosshair.jsx";
 import { Loader } from "@react-three/drei"
 import { Suspense } from "react";
 
