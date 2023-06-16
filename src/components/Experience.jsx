@@ -32,7 +32,7 @@ export default function Experience() {
   return (
     <>
      
-      <OrbitControls ref={controlsRef} />
+      <PointerLockControls ref={controlsRef} />
       <spotLight position={[-1, 5, 15]} intensity={0.3} color={"purple"} />
       <spotLight position={[-1, 5, 15]} intensity={0.08} color={"orange"} />
       <spotLight
